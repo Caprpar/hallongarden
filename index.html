@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hallongårdn Kollektiv</title>
+    <style>
+      /* Stilsättning */
+      h1 {
+        font-family: princess sofia;
+        display: flex;
+        justify-content: center;
+        font-size: 5em;
+        border-bottom: solid;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 98dvh;
+        /* justify-content: center; */
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        width: 10em;
+        height: auto;
+        animation-name: raspberry;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes raspberry {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      li {
+        font-size: 1.5em;
+        list-style-type: none;
+      }
+
+      a:visited {
+        color: #cc2468;
+      }
+      a {
+        text-decoration: none;
+        color: #cc2468;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hemsidan -->
+    <h1>Hallongårdn Kollektiv</h1>
+    <img src="images/rassberry.png" alt="" />
+    <ul>
+      <a href="index.html">
+        <li>Hallongårdn</li>
+      </a>
+      <a href="visningar.html">
+        <li>Visningar</li>
+      </a>
+      <a href="medlemmar.html">
+        <li>Medlemmar</li>
+      </a>
+    </ul>
+  </body>
+  <script>
+    // Funktionallitet
+  </script>
+</html>

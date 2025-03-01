@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hallongårdn Kollektiv</title>
+    <style>
+      /* Stilsättning */
+      h1 {
+        font-family: princess sofia;
+        display: flex;
+        justify-content: center;
+        font-size: 5em;
+        border-bottom: solid;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 98dvh;
+        /* justify-content: center; */
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        width: 10em;
+        height: auto;
+        animation-name: raspberry;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        border-radius: 1000px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+      #members > li {
+        font-size: 1em;
+      }
+      #members {
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        /* border: solid; */
+        justify-content: center;
+      }
+      li {
+        font-size: 1.5em;
+        list-style-type: none;
+      }
+      a:visited {
+        color: #cc2468;
+      }
+      a {
+        text-decoration: none;
+        color: #cc2468;
+      }
+
+      @keyframes raspberry {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hemsidan -->
+    <h1>Här är knäppa vi</h1>
+    <ul id="members">
+      <li>
+        <img src="images/viola.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/elinore.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/felix.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/rasmus.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/malin.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/benjamin.jpg" alt="" />
+      </li>
+      <li>
+        <img src="images/caspar.jpg" alt="" />
+      </li>
+    </ul>
+    <ul>
+      <a href="index.html">
+        <li>Hallongårdn</li>
+      </a>
+      <a href="visningar.html">
+        <li>Visningar</li>
+      </a>
+      <a href="medlemmar.html">
+        <li>Medlemmar</li>
+      </a>
+    </ul>
+  </body>
+  <script>
+    // Funktionallitet
+  </script>
+</html>
